@@ -9,4 +9,4 @@ cantidad = prompt("Ingresa cuantas medias queres comprar (cada una vale" + preci
 
 let precioTotal = sumarProductos(precio, cantidad)
 
-console.log("Gastaste " + precioTotal + " en " + cantidad + " medias")
+console.log("Gastaste $" + precioTotal + " en " + cantidad + " medias")
