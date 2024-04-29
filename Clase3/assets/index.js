@@ -19,19 +19,19 @@ if (afirmativo) {
 let luvia = true
 let paraguas = true
 let rompeVientos = false 
-let Sol = false
+let Sol = true
 let gorra = false
 let protectorSolar = false
 
-if (lluvia && sol) {
-    Swal.fire("Se creo un arcoiris");
+if (lluvia == true && sol == true) {
+    alert("Se creo un arcoiris");
 }
 else if (lluvia) {
     if (paraguas && rompeVientos) {
-        Swal.fire("Estas bien protegido");
+        alert("Estas bien protegido");
     }
-    else if (!paraguas) {Swal.fire("Esta lloviendo y no tenes paraguas");}
-    else if (!rompeVientos) {Swal.fire("Esta llovindo y no tenes la campera");}
+    else if (!paraguas) {alert("Esta lloviendo y no tenes paraguas");}
+    else if (!rompeVientos) {alert("Esta llovindo y no tenes la campera");}
 }
 else if (sol) {
     
